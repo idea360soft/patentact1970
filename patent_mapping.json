@@ -1,0 +1,27 @@
+{
+  "3": {
+    "title": "What are not inventions",
+    "judgement": "Any invention which is frivolous or contrary to natural laws is not patentable.",
+    "citation": "Section 3, The Patents Act, 1970"
+  },
+  "10": {
+    "title": "Contents of specification",
+    "judgement": "The complete specification must fully and particularly describe the invention and its method of performance.",
+    "citation": "Section 10, The Patents Act, 1970"
+  },
+  "16": {
+    "title": "Divisional applications",
+    "judgement": "Applicant may divide application if multiple inventions are disclosed.",
+    "citation": "Section 16, The Patents Act, 1970"
+  },
+  "25": {
+    "title": "Opposition to grant of patent",
+    "judgement": "Third parties may oppose grant of patent on various grounds.",
+    "citation": "Section 25, The Patents Act, 1970"
+  },
+  "64": {
+    "title": "Revocation of patent",
+    "judgement": "A granted patent can be revoked by court on specific grounds.",
+    "citation": "Section 64, The Patents Act, 1970"
+  }
+}

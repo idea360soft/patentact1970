@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patent Act - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function checkLogin() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Hardcoded credentials (can be modified)
+      if(username === "admin" && password === "1234") {
+        window.location.href = "index.html";  // Redirect to converter after login
+      } else {
+        alert("Invalid Username or Password");
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2>Login to Patent Act Converter</h2>
+    <input type="text" id="username" placeholder="Username"><br><br>
+    <input type="password" id="password" placeholder="Password"><br><br>
+    <button onclick="checkLogin()">Login</button>
+  </div>
+</body>
+</html>
