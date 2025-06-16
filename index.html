@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Patent Act Section Converter</title>
+  <title>Patent Act - Login</title>
   <link rel="stylesheet" href="style.css">
-  <script src="converter.js"></script>
+  <script>
+    function checkLogin() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      if(username === "admin" && password === "1234") {
+        window.location.href = "converter.html";  // Redirect to converter page
+      } else {
+        alert("Invalid Username or Password");
+      }
+    }
+  </script>
 </head>
 <body>
   <div class="container">
-    <h1>Patent Act Section Converter</h1>
-
-    <input type="text" id="oldSection" placeholder="Enter Section of Patent Act (e.g. 3)">
-    <button onclick="convertSection()">Judgement</button>
-
-    <h2>Result and Citation:</h2>
-    <div id="result"></div>
+    <h2>Login to Patent Act Converter</h2>
+    <input type="text" id="username" placeholder="Username"><br><br>
+    <input type="password" id="password" placeholder="Password"><br><br>
+    <button onclick="checkLogin()">Login</button>
   </div>
 </body>
 </html>
